@@ -3,7 +3,7 @@
 import unittest
 
 from validate.format import error_message
-from validate.format import get_categories_content
+from validate.format import get_categories_content             
 from validate.format import check_alphabetical_order
 from validate.format import check_title
 from validate.format import check_description, max_description_length
