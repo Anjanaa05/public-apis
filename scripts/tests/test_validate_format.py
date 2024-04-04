@@ -58,7 +58,7 @@ class TestValidadeFormat(unittest.TestCase):
         self.assertIsInstance(result, tuple)
 
         categories, category_line_num = result
-        self.assertIsInstance(categories, dict)
+        self.assertIsInstance(categories, dict)          
         self.assertIsInstance(category_line_num, dict)
 
         expected_result = ({'A': ['AA', 'AB'], 'B': ['BA', 'BB']}, {'A': 0, 'B': 6})
