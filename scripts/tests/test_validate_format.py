@@ -97,7 +97,11 @@ class TestValidadeFormat(unittest.TestCase):
             '| [BA](https://www.ex.com) | Desc | `apiKey` | Yes | Yes |'
         ]
 
-
+def test_error_message_return_and_return_type(self):
+        line_num_unity = 1
+        line_num_ten = 10
+        line_num_hundred = 100
+        line_num_thousand = 1000
         err_msgs_1 = check_alphabetical_order(correct_lines)
         err_msgs_2 = check_alphabetical_order(incorrect_lines)
 
